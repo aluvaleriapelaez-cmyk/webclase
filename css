@@ -1,0 +1,61 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    background-color: #f2f2f2;
+}
+ 
+/* Encabezado */
+header {
+    background-color: #B0C4DE;
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
+ 
+/* Secciones */
+.seccion {
+    background-color: white;
+    margin: 20px;
+    padding: 20px;
+    border-radius: 8px;
+}
+ 
+/* Sección con imagen y texto en horizontal */
+.especial {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+ 
+.imagen img {
+    width: 200px;
+    border-radius: 8px;
+}
+ 
+.texto {
+    flex: 1;
+}
+ 
+/* Pie de página */
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 15px;
+}
+
+table {
+    border-collapse: collapse; /* Une las líneas de la tabla */
+    width: 70%;
+}
+ 
+th, td {
+    border: 1px solid black; /* Líneas de la tabla */
+    padding: 8px;
+    text-align: left;
+}
+ 
+th {
+    background-color: #B0C4DE; /* Color del encabezado */
+    color: white;
+}
